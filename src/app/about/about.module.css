@@ -1,0 +1,19 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .skills {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .skills li {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+  }
